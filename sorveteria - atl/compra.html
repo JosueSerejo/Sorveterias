@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="_css/compra.css">
+    <link rel="stylesheet" type="text/css" href="_css/navprincipal.css">
+    <link rel="stylesheet" type="text/css" href="_css/popup.css">
+
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="_css/mobcomp.css">
+    <script src="_js/script.js"></script>
+    <script src="/_js/carrinho.js" async></script>
+
+
+
+    <title>Gellaticus</title>
+</head>
+
+
+
+<div class="barraDeNavegaçao">
+
+    <div class="caimento">
+        <button class="botaodecair">Estadia
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="conteudoDeCaida">
+            <a href="https://campinglivre.netlify.app">Camping Livre</a>
+            <a href="https://hoteisdosmaress.netlify.app">Hotéis dos Mares</a>
+        </div>
+    </div>
+    <div class="caimento">
+        <button class="botaodecair">Lazer
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="conteudoDeCaida">
+            <a href="https://turispar.netlify.app/">TurisPar</a>
+            <a href="https://tourphb.netlify.app">TOUR PHB</a>
+            <a href="https://portodoartesanato.netlify.app/">Porto do Artesanato</a>
+            <a href="https://skaroller.netlify.app/">SkarRoller</a>
+            <a href="https://water-kite.netlify.app">Water Kite</a>
+        </div>
+    </div>
+    <div class="caimento">
+        <button class="botaodecair">Alimentação
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="conteudoDeCaida">
+            <a href="https://bankairestaurante.netlify.app">Bankai</a>
+            <a href="https://gellaticus.netlify.app">Gellaticus</a>
+            <a href="https://lojinha-liga-on.netlify.app/">Liga On</a>
+        </div>
+    </div>
+    <div class="caimento">
+        <button class="botaodecair">Transporte
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="conteudoDeCaida">
+            <a href="https://casadaaventura.netlify.app">Casa da Aventura</a>
+            <a href="https://alugauto.netlify.app/">AlugAUTO</a>
+            <a href="https://passeiosmaritimos.netlify.app/">L.A Passeio Marítimo</a>
+            <a href="https://bemveiculado.netlify.app/">Bem Veículado</a>
+        </div>
+    </div>
+    <div class="sub">
+
+        <a href="https://tdahinfo.netlify.app">Sobre</a>
+        <a class="login" href="#">Login</a>
+    </div>
+</div>
+
+
+
+<header>
+    <div class="fundo">
+        <div class="logo">
+            <img src="/_img/logo/logo.png" alt="codigo html">
+        </div>
+
+        <div class="nav">
+            <b> <a href="/index.html" title="Home" class="ativo">INICIO</a>
+                <a href="/sobre.html" title="Home" class="ativo">SOBRE</a>
+                <a href="/_doc/CARDÁPIO.pdf" title="Home" class="ativo">CARDÁPIO</a>
+                <a href="/contato.html" title="Home" class="ativo">CONTATO</a>
+            </b>
+        </div>
+
+
+
+        <div id="letreiro">
+            <b>
+                <p>COMPRAR PRODUTOS</p>
+            </b>
+            <div class="simbolo">
+                <img src="/_img/simbolos/02.png" alt="codigo html">
+            </div>
+
+        </div>
+</header>
+
+
+<body>
+
+    <main>
+
+        <h1>NOSSO MENU</h1>
+
+
+        <div class="central">
+            <div class="categorias">
+                <div class="todos">
+                    <h2>Todos os Produtos</h2>
+                    <img src="/_img/menu/vari.png">
+                    <button class="categoria-btn" data-categoria="todos">Clique</button>
+                </div>
+
+                <div class="todos">
+                    <h2>Sorvetes</h2>
+                    <img src="/_img/menu/02.png">
+                    <button class="categoria-btn" data-categoria="sorvete">Clique</button>
+                </div>
+
+                <div class="todos">
+                    <h2>Milkshakes</h2>
+                    <img src="/_img/menu/01.png">
+                    <button class="categoria-btn" data-categoria="milkshake">Clique</button>
+                </div>
+
+                <div class="todos">
+                    <h2>Sorbet</h2>
+                    <img src="/_img/menu/03.png">
+                    <button class="categoria-btn" data-categoria="sorbet">Clique</button>
+                </div>
+
+                <div class="todos">
+                    <h2>Picolé</h2>
+                    <img src="/_img/menu/04.png">
+                    <button class="categoria-btn" data-categoria="picole">Clique</button>
+                </div>
+            </div>
+
+
+
+            <div class="produtos">
+
+                <!-- Sorvetes -->
+
+
+                <div class="produto sorvete" id="s1">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Sorvete de Baunilha</h3>
+                        <span class="preco_produto">R$ 4,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+                <div class="produto sorvete" id="s2">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Sorvete de Chocolate</h3>
+                        <span class="preco_produto">R$ 4,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+                <div class="produto sorvete" id="s3">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Sorvete de Limão</h3>
+                        <span class="preco_produto">R$ 4,50</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+                <div class="produto sorvete" id="s4">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Sorvete de Coco</h3>
+                        <span class="preco_produto">R$ 4,50</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+                <div class="produto sorvete" id="s1">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Sorvete de Maracujá</h3>
+                        <span class="preco_produto">R$ 4,50</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+                <div class="produto sorvete" id="s2">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Sorvete de Abacaxi</h3>
+                        <span class="preco_produto">R$ 5,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+                <div class="produto sorvete" id="s3">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Sorvete de Manga</h3>
+                        <span class="preco_produto">R$ 4,50</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+                <div class="produto sorvete" id="s5">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Sorvete de Tangerina</h3>
+                        <span class="preco_produto">R$ 5,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+                <div class="produto sorvete" id="s6">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Sorvete de Limão Siciliano</h3>
+                        <span class="preco_produto">R$ 4,50</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+                <div class="produto sorvete" id="s7">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Sorvete de Maracujá</h3>
+                        <span class="preco_produto">R$ 5,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+                <div class="produto sorvete" id="s8">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Sorvete de Manga</h3>
+                        <span class="preco_produto">R$ 5,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+                <div class="produto sorvete" id="s9">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Sorvete de Tangerina</h3>
+                        <span class="preco_produto">R$ 4,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+
+                    </div>
+                </div>
+
+
+
+                <!-- Milkshakes -->
+
+
+                <div class="produto milkshake" id="m1">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Milkshake de Ovomaltine</h3>
+                        <span class="preco_produto">R$ 10,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+
+                <div class="produto milkshake" id="m2">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Milkshake de Chocolate</h3>
+                        <span class="preco_produto">R$ 9,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+                <div class="produto milkshake" id="m3">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Milkshake de Frutas Vermelhas</h3>
+                        <span class="preco_produto">R$ 9,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+                <div class="produto milkshake" id="m4">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Milkshake de Chocolate Branco</h3>
+                        <span class="preco_produto">R$ 10,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+                <div class="produto milkshake" id="m5">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Milkshake de Maracujá</h3>
+                        <span class="preco_produto">R$ 11,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+                <div class="produto milkshake" id="m6">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Milkshake de Menta com Chocolate</h3>
+                        <span class="preco_produto">R$ 10,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+                <div class="produto milkshake" id="m7">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Milkshake de Caramelo</h3>
+                        <span class="preco_produto">R$ 11,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+                <div class="produto milkshake" id="m8">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Milkshake de Café com Chocolate</h3>
+                        <span class="preco_produto">R$ 11,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+                <div class="produto milkshake" id="m9">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Milkshake de Caramelo</h3>
+                        <span class="preco_produto">R$ 10,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+                <div class="produto milkshake" id="m10">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Milkshake de Café</h3>
+                        <span class="preco_produto">R$ 10,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+                <div class="produto milkshake" id="m11">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Milkshake de Limão</h3>
+                        <span class="preco_produto">R$ 10,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+                <div class="produto milkshake" id="m12">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Milkshake de Brigadeiro</h3>
+                        <span class="preco_produto">R$ 10,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+
+                <!-- sorbet -->
+
+                <div class="produto sorbet" id="sb1">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Sorbet de Morango</h3>
+                        <span class="preco_produto">R$ 15,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+                <div class="produto sorbet" id="sb2">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Sorbet de Abacaxi com Hortelã</h3>
+                        <span class="preco_produto">R$ 15,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+
+
+                <div class="produto sorbet" id="sb3">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Sorbet de Manga</h3>
+                        <span class="preco_produto">R$ 15,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+
+
+                <div class="produto sorbet" id="sb4">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Sorbet de Caju</h3>
+                        <span class="preco_produto">R$ 15,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+
+
+                <div class="produto sorbet" id="sb5">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Sorbet de Maracujá</h3>
+                        <span class="preco_produto">R$ 15,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+
+
+                <div class="produto sorbet" id="sb6">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Sorbet de Cajá</h3>
+                        <span class="preco_produto">R$ 15,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+
+
+                <div class="produto sorbet" id="sb7">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Sorbet de Morango </h3>
+                        <span class="preco_produto">R$ 15,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+
+
+                <div class="produto sorbet" id="sb8">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Sorbet de Manga</h3>
+                        <span class="preco_produto">R$ 15,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+
+
+                <div class="produto sorbet" id="sb9">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Sorbet de Manga</h3>
+                        <span class="preco_produto">R$ 15,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+
+
+                <div class="produto sorbet" id="sb10">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Sorbet de Manga</h3>
+                        <span class="preco_produto">R$ 15,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+
+
+                <div class="produto sorbet" id="sb11">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Sorbet de Manga</h3>
+                        <span class="preco_produto">R$ 15,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+
+
+                <div class="produto sorbet" id="sb12">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Sorbet de Manga</h3>
+                        <span class="preco_produto">R$ 15,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+
+                <!-- Picolé -->
+
+
+
+                <div class="produto picole" id="p1">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Picolé de Morango</h3>
+                        <span class="preco_produto">R$ 15,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+
+                <div class="produto picole" id="p2">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Picolé de Abacaxi</h3>
+                        <span class="preco_produto">R$ 15,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+
+                <div class="produto picole" id="p3">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Picolé de Manga</h3>
+                        <span class="preco_produto">R$ 15,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+
+                <div class="produto picole" id="p4">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Picolé de Cajá</h3>
+                        <span class="preco_produto">R$ 15,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+
+                <div class="produto picole" id="p5">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Picolé de Graviola</h3>
+                        <span class="preco_produto">R$ 15,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+
+                <div class="produto picole" id="p6">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Picolé de Caju</h3>
+                        <span class="preco_produto">R$ 15,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+
+                <div class="produto picole" id="p7">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Picolé de Acerola</h3>
+                        <span class="preco_produto">R$ 15,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+
+                <div class="produto picole" id="p8">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Picolé de Ciriguela</h3>
+                        <span class="preco_produto">R$ 15,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+
+                <div class="produto picole" id="p9">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Picolé de Pitomba</h3>
+                        <span class="preco_produto">R$ 15,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+
+                <div class="produto picole" id="p10">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Picolé de Graviola</h3>
+                        <span class="preco_produto">R$ 15,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+
+                <div class="produto picole" id="p11">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Picolé de Cajá</h3>
+                        <span class="preco_produto">R$ 15,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+
+                <div class="produto picole" id="p12">
+                    <div class="imagem_produto">
+                        <h3 class="nome_produto">Picolé de Cupuaçu</h3>
+                        <span class="preco_produto">R$ 15,00</span><br>
+                        <button type="button" class="butao_add">COMPRAR</button>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+        <script src="script.js"></script>
+
+
+
+    </main>
+
+
+    <section class="container normal-section">
+        <h2 class="section-title">Carrinho</h2>
+
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th class="coluna1">Item</th>
+                    <th class="coluna2">Preço</th>
+                    <th class="coluna3">Quantidade</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3" class="cart-total-container">
+                        <strong>Total</strong>
+                        <span>R$0,00</span>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <button type="button" class="botao_final_compra">Finalizar Compra</button>
+    </section>
+    </main>
+
+
+
+
+    <footer>
+
+        <div class="rodape">
+
+            <div class="contato">
+                <b>
+                    <h3>CONTATE-NOS</h3>
+                </b>
+                <p>Email: gellaticus@sorveteria.com</p>
+                <p>Phone: +55 (86) 9 9456 7890</p>
+            </div>
+
+            <div class="endereco">
+                <b>
+                    <h3>ENDEREÇO</h3>
+                </b>
+                <p>Av. São Sebastião, 1265 </p>
+                <p> Bairro N. Srª de Fátima</p>
+                <p> Parnaíba - PI, 64202-020</p>
+            </div>
+
+
+            <div class="sociais">
+                <h3>REDES SOCIAIS</h3>
+                <a href="#"> <img src="/_img/social/1.png" alt=""></a>
+                <a href="#"> <img src="/_img/social/2.png" alt=""></a>
+                <a href="#"> <img src="/_img/social/3.png" alt=""></a>
+                <a href="#"> <img src="/_img/social/4.png" alt=""></a>
+
+            </div>
+
+        </div>
+
+        <div class="dev">
+            <p>Copyright Gellaticus © 2024 | Desenvolvido por <a href="https://www.instagram.com/prgrmnd/"
+                    target="_blank" rel="noreferrer noopener nofollow">Josué Serejo</a>
+
+        </div>
+
+
+    </footer>
+
+
+
+</body>
+
+
+
+</html>

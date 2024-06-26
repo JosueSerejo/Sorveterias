@@ -1,0 +1,613 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: Belleza;
+  src: url(/_font/Belleza-Regular.ttf);
+
+}
+
+* {
+  margin: 0;
+  font-family: Belleza;
+}
+
+
+.fundo {
+  overflow-x: hidden;
+  background-image: url(/_img/fundo/0011.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+
+
+}
+
+/** INICIO CABEÇALHO **/
+
+
+main {
+  overflow-x: hidden;
+  background-image: url(/_img/fundo/fundoprod.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 100%;
+
+}
+
+.nav {
+  padding: 23px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.658);
+}
+
+.nav a {
+  padding: 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+
+}
+
+.nav a:hover {
+
+  color: rgb(120, 114, 126);
+
+}
+
+.logo img {
+  float: left;
+  padding-left: 5%;
+  size-adjust: auto;
+  width: 5rem;
+  object-fit: cover;
+}
+
+
+
+#letreiro p {
+  font-size: 5vh;
+  color: white;
+  padding-top: 5%;
+  text-align: center;
+
+
+}
+
+.simbolo img {
+  width: 40%;
+  padding-left: 30%;
+  z-index: 66;
+  margin-top: -20px;
+
+}
+
+
+/** FINAL CABEÇALHO **/
+
+/** MENU **/
+
+
+h1 {
+
+  padding-top: 5%;
+  padding-bottom: 2%;
+  text-align: center;
+  color: rgb(49, 46, 46);
+
+}
+
+
+
+/** Menu dois**/
+
+
+
+
+
+
+
+/* Estilização do menu */
+
+
+
+
+.central {
+
+  padding-left: 2%;
+
+}
+
+.categorias {
+  text-align: center;
+  padding: 2%;
+
+}
+
+.categorias button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
+
+}
+
+.categoria-btn {
+  cursor: pointer;
+}
+
+.produtos {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+  margin: auto;
+}
+
+.produto {
+  width: 250px;
+  height: 200px;
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+  margin: 10px;
+  display: none;
+  border-radius: 5px;
+}
+
+
+.produto button {
+  background-color: black;
+}
+
+.produto img {
+  width: 140px;
+  border-radius: 10px;
+  float: left;
+
+}
+
+.butao_add {
+  width: 100px;
+  font-size: 12px;
+
+}
+
+
+
+.nome_produto {
+  font-size: 20px;
+  text-align: center;
+
+
+}
+
+
+
+.produto h3 {
+  margin-top: 10%;
+  color: rgb(255, 255, 255);
+}
+
+
+.produto button {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+
+}
+
+
+.todos img {
+  width: 130px;
+  padding-top: 1%;
+
+}
+
+
+.todos {
+  height: 250px;
+  width: 200px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 20px;
+}
+
+
+.categorias {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding-left: 15%;
+}
+
+
+
+
+/* FUNDO MENU SORVETE*/
+
+
+#s1 {
+  background-image: url(/_img/menu/sorvetes/1.png);
+
+}
+
+#s2 {
+  background-image: url(/_img/menu/sorvetes/2.png);
+
+}
+
+#s3 {
+  background-image: url(/_img/menu/sorvetes/3.png);
+
+}
+
+
+#s4 {
+  background-image: url(/_img/menu/sorvetes/4.png);
+
+}
+
+
+#s5 {
+  background-image: url(/_img/menu/sorvetes/5.png);
+
+}
+
+#s6 {
+  background-image: url(/_img/menu/sorvetes/6.png);
+
+}
+
+
+#s7 {
+  background-image: url(/_img/menu/sorvetes/7.png);
+
+}
+
+
+#s8 {
+  background-image: url(/_img/menu/sorvetes/8.png);
+
+}
+
+
+#s9 {
+  background-image: url(/_img/menu/sorvetes/9.png);
+
+}
+
+
+#s10 {
+  background-image: url(/_img/menu/sorvetes/10.png);
+
+}
+
+
+#s11 {
+  background-image: url(/_img/menu/sorvetes/11.png);
+
+}
+
+
+#s12 {
+  background-image: url(/_img/menu/sorvetes/12.png);
+
+}
+
+#s13 {
+  background-image: url(/_img/menu/sorvetes/13.png);
+
+}
+
+
+#s14 {
+  background-image: url(/_img/menu/sorvetes/14.png);
+
+}
+
+#s15 {
+  background-image: url(/_img/menu/sorvetes/15.png);
+
+}
+
+#s16 {
+  background-image: url(/_img/menu/sorvetes/16.png);
+
+}
+
+#s17 {
+  background-image: url(/_img/menu/sorvetes/17.png);
+
+}
+
+#s18 {
+  background-image: url(/_img/menu/sorvetes/18.png);
+
+}
+
+
+/* FUNDO MENU MILKSHAKE*/
+
+
+
+#m1 {
+  background-image: url(/_img/menu/milkshake/1.png);
+
+}
+
+
+
+#m2 {
+  background-image: url(/_img/menu/milkshake/2.png);
+
+}
+
+
+
+#m3 {
+  background-image: url(/_img/menu/milkshake/3.png);
+
+}
+
+
+
+#m4 {
+  background-image: url(/_img/menu/milkshake/4.png);
+
+}
+
+
+
+#m5 {
+  background-image: url(/_img/menu/milkshake/5.png);
+
+}
+
+
+
+#m6 {
+  background-image: url(/_img/menu/milkshake/6.png);
+
+}
+
+
+
+#m7 {
+  background-image: url(/_img/menu/milkshake/7.png);
+
+}
+
+
+
+#m8 {
+  background-image: url(/_img/menu/milkshake/8.png);
+
+}
+
+
+
+#m9 {
+  background-image: url(/_img/menu/milkshake/9.png);
+
+}
+
+
+
+#m10 {
+  background-image: url(/_img/menu/milkshake/10.png);
+
+}
+
+
+
+#m11 {
+  background-image: url(/_img/menu/milkshake/11.png);
+
+}
+
+
+
+#m12 {
+  background-image: url(/_img/menu/milkshake/12.png);
+
+}
+
+
+/* SORBET */
+
+
+#sb1 {
+  background-image: url(/_img/menu/sorbet/1.png);
+
+}
+
+
+#sb2 {
+  background-image: url(/_img/menu/sorbet/2.png);
+
+}
+
+
+#sb3 {
+  background-image: url(/_img/menu/sorbet/3.png);
+
+}
+
+
+#sb4 {
+  background-image: url(/_img/menu/sorbet/4.png);
+
+}
+
+
+#sb5 {
+  background-image: url(/_img/menu/sorbet/5.png);
+
+}
+
+
+#sb6 {
+  background-image: url(/_img/menu/sorbet/6.png);
+
+}
+
+
+#sb7 {
+  background-image: url(/_img/menu/sorbet/7.png);
+
+}
+
+
+#sb8 {
+  background-image: url(/_img/menu/sorbet/8.png);
+
+}
+
+
+#sb9 {
+  background-image: url(/_img/menu/sorbet/9.png);
+
+}
+
+#sb10 {
+  background-image: url(/_img/menu/sorbet/10.png);
+
+}
+
+
+#sb11 {
+  background-image: url(/_img/menu/sorbet/11.png);
+
+}
+
+#sb12 {
+  background-image: url(/_img/menu/sorbet/12.png);
+
+}
+
+
+/* PICOLÉS */
+
+
+#p1 {
+  background-image: url(/_img/menu/picole/1.png);
+
+}
+
+
+#p2 {
+  background-image: url(/_img/menu/picole/2.png);
+
+}
+
+
+#p3 {
+  background-image: url(/_img/menu/picole/3.png);
+
+}
+
+
+#p4 {
+  background-image: url(/_img/menu/picole/4.png);
+
+}
+
+
+#p5 {
+  background-image: url(/_img/menu/picole/5.png);
+
+}
+
+
+#p6 {
+  background-image: url(/_img/menu/picole/6.png);
+
+}
+
+
+#p7 {
+  background-image: url(/_img/menu/picole/7.png);
+
+}
+
+
+#p8 {
+  background-image: url(/_img/menu/picole/8.png);
+
+}
+
+
+#p9 {
+  background-image: url(/_img/menu/picole/9.png);
+
+}
+
+
+#p10 {
+  background-image: url(/_img/menu/picole/10.png);
+
+}
+
+
+
+#p11 {
+  background-image: url(/_img/menu/picole/11.png);
+
+}
+
+
+
+#p12 {
+  background-image: url(/_img/menu/picole/12.png);
+
+}
+
+
+
+
+.nome_produto {
+  padding-bottom: 20px;
+}
+
+
+
+.preco_produto {
+  color: aliceblue;
+  background: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 2px;
+}
+
+
+.container {
+  border: rgb(255, 0, 0) 1px solid;
+  margin: 20px;
+  padding-left: 50px;
+  width: 800px;
+
+}
+
+
+h2 {
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+.coluna1 {
+  padding-left: 20px;
+}
+
+.cart-total-container {
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+}
+
+
+.botao_final_compra {
+  background-color: black;
+  padding: 10px;
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}

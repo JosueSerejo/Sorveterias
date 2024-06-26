@@ -1,0 +1,374 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Belleza;
+    src: url(/_font/Belleza-Regular.ttf);
+    
+}
+
+* {
+    margin: 0;
+    font-family: Belleza;
+}
+
+
+body {
+    overflow-x: hidden;
+
+}
+
+/** INICIO CABEÇALHO **/
+
+.fundo {
+    background-image: url(/_img/fundo/0001.png) ;
+    height: 145vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.nav {
+    padding: 23px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.658);
+}
+
+.nav a {
+    padding: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+
+}
+
+.nav a:hover {
+
+    color: rgb(120, 114, 126);
+
+}
+
+.logo img {
+    float: left;
+    padding-left: 5%;
+    size-adjust: auto;
+    width: 5rem;
+    object-fit: cover;
+}
+
+.video {
+    float: left;
+    padding-top: 5%;
+    padding-left: 2%;
+}
+
+.video video {
+    background-color: #0000009f;
+    padding: 7px;
+    border-radius: 15px;
+    position: absolute;
+    max-width: 28%;
+    size-adjust: auto;
+}
+
+#letreiro p {
+    color: #ffffff;
+    font-size: 2.5vw;
+    padding-top: 8%;
+    text-align: right;
+    text-size-adjust: auto;
+    padding-right: 11%;
+}
+
+.botaotop {
+    padding-top: 4%;
+    text-align: right;
+    padding-right: 24%;
+}
+
+.botaotop a {
+    background-color: #000000b4;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 1.6vw;
+    color: #fff;
+    text-decoration: none;
+}
+
+.botaotop a:hover {
+    background-color: #ffffff9d;
+    color: black;
+}
+
+/** FINAL CABEÇALHO **/
+
+/** INICIO SORVETES TRADICIONAIS**/
+
+.simbolo h2 {
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 1.5%;
+    font-size: 4vh;
+
+}
+
+h2 {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 1.5%;
+    font-size: 4vh;
+
+}
+
+
+.corpo {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: #ffffff00;
+}
+
+.container {
+    max-width: 80%;
+    width: 80%;
+}
+
+.slider-wrapper {
+    position: relative;
+}
+
+.slider-wrapper .slide-button {
+    position: absolute;
+    top: 50%;
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 50px;
+    z-index: 5;
+    color: #fff;
+    display: flex;
+    cursor: pointer;
+    font-size: 2.2rem;
+    background: #000;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.slider-wrapper .slide-button:hover {
+    background: #404040;
+}
+
+.slider-wrapper .slide-button#prev-slide {
+    left: -25px;
+    display: none;
+}
+
+.slider-wrapper .slide-button#next-slide {
+    right: -25px;
+}
+
+.slider-wrapper .image-list {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 18px;
+    font-size: 0;
+    list-style: none;
+    margin-bottom: 30px;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.slider-wrapper .image-list::-webkit-scrollbar {
+    display: none;
+}
+
+.slider-wrapper .image-list .image-item {
+    width: 325px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.container .slider-scrollbar {
+    height: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.slider-scrollbar .scrollbar-track {
+    background: #ccc;
+    width: 100%;
+    height: 2px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    position: relative;
+}
+
+.slider-scrollbar:hover .scrollbar-track {
+    height: 4px;
+}
+
+.slider-scrollbar .scrollbar-thumb {
+    position: absolute;
+    background: #000;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+    cursor: grab;
+    border-radius: inherit;
+}
+
+.slider-scrollbar .scrollbar-thumb:active {
+    cursor: grabbing;
+    height: 8px;
+    top: -2px;
+}
+
+.slider-scrollbar .scrollbar-thumb::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    bottom: -10px;
+}
+
+/* Styles for mobile and tablets */
+@media only screen and (max-width: 1023px) {
+    .slider-wrapper .slide-button {
+        display: none !important;
+    }
+
+    .slider-wrapper .image-list {
+        gap: 10px;
+        margin-bottom: 15px;
+        scroll-snap-type: x mandatory;
+    }
+
+    .slider-wrapper .image-list .image-item {
+        width: 280px;
+        height: 380px;
+    }
+
+    .slider-scrollbar .scrollbar-thumb {
+        width: 20%;
+    }
+}
+
+/** FINAL SORVETES TRADICIONAIS**/
+
+
+/** INICIO VANTAGENS **/
+
+.vantagem {
+    background-image: url(/_img/fundo/002.png);
+    height: 14.8vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    justify-content: center;
+    position: relative;
+}
+
+
+.vantagem img {
+    width: 12rem;
+    padding-left: 15%;
+    justify-items: center;
+
+
+}
+
+
+/** FINAL VANTAGENS **/
+
+/** INICIO MAIS PEDIDOS **/
+
+.mpedidos {
+
+    background-image: url(/_img/fundo/003.png);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+
+}
+
+
+.pedids {
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);    
+    justify-content: center;
+
+}
+
+.pedids img {
+    width: 100%;
+
+}
+
+
+/** FINAL MAIS PEDIDOS **/
+
+/** SIMBOLOS **/
+
+.simbolo img {
+    width: 30%;
+    padding-left: 35%;
+    z-index: 66;
+    margin-top: -50px;
+
+}
+
+
+.simbolo2 img {
+    width: 30%;
+    padding-left: 35%;
+    z-index: 66;
+    margin-top: -50px;
+
+}
+
+
+.simbolo3 img {
+    width: 30%;
+    padding-left: 35%;
+    z-index: 66;
+    margin-top: -20%;
+
+}
+
+
+/** SIMBOLOS **/
+
+
+
+
+/** INICIO PARCEIROS**/
+
+.parceiros {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);    
+}
+
+section {
+    background-image: url(/_img/fundo/009.png);
+    height: 550px;
+}
+
+
+.parceiros a img {
+    width: 55%;
+    padding-left: 20%;
+}
+
+
+/** FINAL PARCEIROS**/
+
+

@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+ /* Nav */
+
+.nav {
+    align-items: center;
+    line-height: 40px;
+}
+
+.nav a {
+    padding: 0.2rem;
+    font-size: 1rem;
+}
+
+.logo img {
+    padding-top: 1%;
+    
+}
+
+
+ /* Nav principal*/
+
+ .barraDeNavegaçao a {
+    padding: 0;
+ }
+
+
+ .sub a{
+    padding-top: 12px;
+ }
+
+
+
+ body {
+    overflow-x: hidden;
+}
+
+
+.fundo {
+    background-image: url(/_img/fundo/0001\ -\ 2.png);
+    height: 950px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+.rodape {
+    gap: 2vh;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);   
+}
+
+
+.rodape p {
+    font-size: 12px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+
+.sociais a img {
+    margin-left: 15px;
+    width: 15%;
+}
+
+#letreiro p {
+    padding-top: 60%;
+    justify-content: center;
+    font-size: 40px;
+}
+
+
+.simbolo img {
+    width: 80%;
+    padding-left: 10%;
+    margin-top: -10px;
+}
+
+#letreiro-2 p {
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+/** SOBRE **/
+
+ #letreiro-2 p {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+
+
+.box-sobre {
+    display: inline;
+}
+
+.box-sobre img {
+    width: 230px;
+    border-radius: 50%;
+    padding-left: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.box-sobre p {
+    width: 350px;
+    text-align: justify;
+    margin-right: 5px;
+    padding-left: 1px;
+    line-height: 20px;
+}
+
+
+#container-sobre {
+    padding: 30px;
+}
+
+
+/** Galeria **/
+
+#letreiro-3 p {
+        font-size: 25px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+
+}
+
+#container-card{
+max-width: 100%;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+
+} 
+
+
+#container-card img{
+    width: 90%;
+   
+} 
+
+.foto:target{
+    position: fixed;
+    width: 100%;
+    top: 15px;
+    left: 0.1%;
+
+}
+
+.detalhes a {
+  
+    padding: 6px 10px; /* espaçamento interno */
+    position: absolute; /* posicionamento absoluto */
+    top: 18px;
+    right: 60px;
+}
+
+
+#container-card img {
+    margin-left: 10px;
+}
+
+
+.dev {
+    font-size: 15px;
+      }
+      
+

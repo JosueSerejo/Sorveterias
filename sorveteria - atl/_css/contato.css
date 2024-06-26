@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Belleza;
+    src: url(/_font/Belleza-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    font-family: Belleza;
+}
+
+/** INICIO CABEÇALHO **/
+
+
+body {
+    background-image: url(/_img/fundo/0001.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    
+}
+
+header {
+    height: 600px;
+}
+
+.nav {
+    padding: 23px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.658);
+}
+
+.nav a {
+    padding: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+
+}
+
+.nav a:hover {
+
+    color: rgb(120, 114, 126);
+
+}
+
+.logo img {
+    float: left;
+    padding-left: 5%;
+    size-adjust: auto;
+    width: 5rem;
+    object-fit: cover;
+}
+
+
+#letreiro p {
+    font-size: 5vh;
+    color: white;
+    padding-top: 10%;
+    text-align: center;
+
+
+}
+
+/** FORMULÁRIO **/
+
+section {
+    padding-top: 100px;
+}
+
+  form {
+    padding-left:25px;
+    padding-right:25px;
+    padding-top: 100px;
+    height: 500px;
+    margin-top: 20px auto;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    position:relative;
+    z-index:1;
+
+  }
+  
+  form div{
+    position:absolute;
+    top:0;
+    left:50%;
+    padding:0 20px;
+    transform:translate(-50%,-50%);
+    background-color:rgb(0, 0, 0);
+    border: 2px solid #533f3f;
+    border-radius: 20px;
+    text-align:center;
+  }
+  
+  form > div > img{
+    filter:invert(1);
+    width:100px;
+  }
+  
+  form > input,
+  form > textarea {
+    padding: 20px;
+    margin: 12px auto;
+    border: 1px solid #ccc;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 4px;
+    display: block;
+    width: 70vw;
+  }
+  
+  form > textarea{
+    height:100px;
+    resize:none;
+  }
+  
+  form > input[type="submit"] {
+    max-width: 20vw;
+    padding-left: 1%;
+    padding-right: 1%;
+    cursor: pointer;
+    transition: 0.35s;
+  }
+  
+  form > input[type="submit"]:hover {
+    background-color: #e41313;
+  }
+  
+
+
+
+/** SIMBOLOS **/
+
+.simbolo img {
+    width: 40%;
+    padding-left: 30%;
+    z-index: 66;
+    margin-top: -20px;
+
+}
+
+
+/** FOOTER **/
+
+footer {
+    padding-top: 50px;
+}
+
+.rodape p {
+    color: white;
+    line-height: 30px;
+}
+
+.rodape h3 {
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+
+.sociais p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.sociais a img {
+    margin-left: 15px;
+    width: 15%;
+}
+
+/** FOOTER **/

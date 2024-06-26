@@ -1,0 +1,565 @@
+@charset "UTF-8";
+
+ /* Nav */
+
+.nav {
+    align-items: center;
+    line-height: 40px;
+}
+
+.nav a {
+    padding: 0.2rem;
+    font-size: 1rem;
+}
+
+.logo img {
+    padding-top: 1%;
+    
+}
+
+
+ /* Nav principal*/
+
+ .barraDeNavegaçao a {
+    padding: 0;
+ }
+
+
+ .sub a{
+    padding-top: 12px;
+ }
+
+
+
+ body {
+    overflow-x: hidden;
+}
+
+
+.fundo {
+    background-image: url(/_img/fundo/00101.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+.rodape {
+    gap: 2vh;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);   
+}
+
+
+.rodape p {
+    font-size: 12px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+
+.sociais a img {
+    margin-left: 15px;
+    width: 15%;
+}
+
+#letreiro p {
+    padding-top: 20%;
+    justify-content: center;
+    font-size: 30px;
+}
+
+
+.simbolo img {
+    width: 80%;
+    padding-left: 10%;
+    margin-top: -10px;
+}
+
+
+
+
+/** menu principal **/
+
+.central {
+
+    padding-left: 2%;
+  
+  }
+  
+  .categorias {
+    text-align: center;
+    padding: 2%;
+  
+  }
+
+
+  .todos img {
+    width: 70px;
+    padding-top: 0%;
+  
+  }
+  
+  
+  .todos {
+    height: 180px;
+    width: 120px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+  }
+  
+  .categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding-left: 0.1%;
+  }
+  
+
+  .todos h2 {
+    font-size: 12px;
+  }
+
+
+/** produtos **/
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin: auto;
+  }
+  
+  .produto {
+    width: 110px;
+    height: 180px;
+    background-image: url(/_img/fundo/555.png);
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    margin: 5px;
+    display: none;
+    border-radius: 10px;
+  }
+  
+  .produto h3 {
+font-size: 15px ;
+
+}
+
+.dev {
+  font-size: 15px;
+    }
+    
+  
+  /* FUNDO MENU SORVETE*/
+
+#s1 {
+    background-image: url(/_img/menu/sorvetes/1.png);
+    background-size: 120px 150px;
+  }
+  
+
+  #s2 {
+    background-image: url(/_img/menu/sorvetes/2.png);
+    background-size: 120px 150px;
+
+  }
+  
+  #s3 {
+    background-image: url(/_img/menu/sorvetes/3.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #s4 {
+    background-image: url(/_img/menu/sorvetes/4.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #s5 {
+    background-image: url(/_img/menu/sorvetes/5.png);
+    background-size: 120px 140px;
+
+  }
+  
+  #s6 {
+    background-image: url(/_img/menu/sorvetes/6.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #s7 {
+    background-image: url(/_img/menu/sorvetes/7.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #s8 {
+    background-image: url(/_img/menu/sorvetes/8.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #s9 {
+    background-image: url(/_img/menu/sorvetes/9.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #s10 {
+    background-image: url(/_img/menu/sorvetes/10.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #s11 {
+    background-image: url(/_img/menu/sorvetes/11.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #s12 {
+    background-image: url(/_img/menu/sorvetes/12.png);
+    background-size: 120px 140px;
+
+  }
+  
+  #s13 {
+    background-image: url(/_img/menu/sorvetes/13.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #s14 {
+    background-image: url(/_img/menu/sorvetes/14.png);
+    background-size: 120px 140px;
+
+  }
+  
+  #s15 {
+    background-image: url(/_img/menu/sorvetes/15.png);
+    background-size: 120px 140px;
+
+  }
+  
+  #s16 {
+    background-image: url(/_img/menu/sorvetes/16.png);
+    background-size: 120px 140px;
+
+  }
+  
+  #s17 {
+    background-image: url(/_img/menu/sorvetes/17.png);
+    background-size: 120px 140px;
+
+  }
+  
+  #s18 {
+    background-image: url(/_img/menu/sorvetes/18.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  /* FUNDO MENU MILKSHAKE*/
+  
+  
+  
+  #m1 {
+    background-image: url(/_img/menu/milkshake/1.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  
+  #m2 {
+    background-image: url(/_img/menu/milkshake/2.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  
+  #m3 {
+    background-image: url(/_img/menu/milkshake/3.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  
+  #m4 {
+    background-image: url(/_img/menu/milkshake/4.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  
+  #m5 {
+    background-image: url(/_img/menu/milkshake/5.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  
+  #m6 {
+    background-image: url(/_img/menu/milkshake/6.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  
+  #m7 {
+    background-image: url(/_img/menu/milkshake/7.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  
+  #m8 {
+    background-image: url(/_img/menu/milkshake/8.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  
+  #m9 {
+    background-image: url(/_img/menu/milkshake/9.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  
+  #m10 {
+    background-image: url(/_img/menu/milkshake/10.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  
+  #m11 {
+    background-image: url(/_img/menu/milkshake/11.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  
+  #m12 {
+    background-image: url(/_img/menu/milkshake/12.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  /* SORBET */
+  
+  
+  #sb1 {
+    background-image: url(/_img/menu/sorbet/1.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #sb2 {
+    background-image: url(/_img/menu/sorbet/2.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #sb3 {
+    background-image: url(/_img/menu/sorbet/3.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #sb4 {
+    background-image: url(/_img/menu/sorbet/4.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #sb5 {
+    background-image: url(/_img/menu/sorbet/5.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #sb6 {
+    background-image: url(/_img/menu/sorbet/6.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #sb7 {
+    background-image: url(/_img/menu/sorbet/7.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #sb8 {
+    background-image: url(/_img/menu/sorbet/8.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #sb9 {
+    background-image: url(/_img/menu/sorbet/9.png);
+    background-size: 120px 140px;
+
+  }
+  
+  #sb10 {
+    background-image: url(/_img/menu/sorbet/10.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #sb11 {
+    background-image: url(/_img/menu/sorbet/11.png);
+    background-size: 120px 140px;
+
+  }
+  
+  #sb12 {
+    background-image: url(/_img/menu/sorbet/12.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  /* PICOLÉS */
+  
+  
+  #p1 {
+    background-image: url(/_img/menu/picole/1.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #p2 {
+    background-image: url(/_img/menu/picole/2.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #p3 {
+    background-image: url(/_img/menu/picole/3.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #p4 {
+    background-image: url(/_img/menu/picole/4.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #p5 {
+    background-image: url(/_img/menu/picole/5.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #p6 {
+    background-image: url(/_img/menu/picole/6.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #p7 {
+    background-image: url(/_img/menu/picole/7.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #p8 {
+    background-image: url(/_img/menu/picole/8.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #p9 {
+    background-image: url(/_img/menu/picole/9.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  #p10 {
+    background-image: url(/_img/menu/picole/10.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  
+  #p11 {
+    background-image: url(/_img/menu/picole/11.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  
+  #p12 {
+    background-image: url(/_img/menu/picole/12.png);
+    background-size: 120px 140px;
+
+  }
+  
+  
+  
+  
+  
+  
+
+  /** AJUSTE CARDS **/
+  
+
+  .container {
+    border: rgb(255, 0, 0) 1px solid;
+    margin: 20px;
+    width: 310px;
+  
+  }
+
+ 

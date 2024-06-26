@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+/* PÁGINA PRINCIPAL */
+
+
+body {
+    overflow-x: hidden;
+}
+
+
+
+/* Configuração do nav*/
+
+.nav {
+    align-items: center;
+    line-height: 40px;
+}
+
+.nav a {
+    padding: 0.2rem;
+    font-size: 1rem;
+}
+
+.logo img {
+    padding-top: 1%;
+    
+}
+
+
+
+.video {
+    padding-left: 15%;
+    padding-top: 50px;
+
+}
+
+.video video {
+    max-width: 70%;
+
+}
+
+#letreiro p {
+    padding-top: 70%;
+    justify-content: center;
+    font-size: 23px;
+}
+
+.botaotop {
+    padding-top: 10%;
+    text-align: center;
+    padding-left: 20%;
+
+}
+
+.botaotop a {
+    font-size: 5vw;
+
+}
+
+
+/* FINAL DO NAV */
+
+
+.simbolo h2 {
+    text-align: center;
+    padding-top: 38%;
+    font-size: 6vw;
+}
+
+.simbolo2 h2 {
+    text-align: center;
+    font-size: 6vw;
+}
+
+.simbolo3 h2 {
+    text-align: center;
+    font-size: 6vw;
+}
+
+.simbolo3 img {
+    width: 80%;
+    padding-left: 10%;
+    z-index: 66;
+    margin-top: -20px;
+
+}
+
+
+
+.container {
+    padding-right: 5%;
+}
+
+.simbolo img {
+    width: 80%;
+    padding-left: 10%;
+    z-index: 66;
+    margin-top: -20px;
+}
+
+.simbolo2 img {
+    width: 80%;
+    padding-left: 10%;
+    z-index: 66;
+    margin-top: -20px;
+
+}
+
+
+
+
+.slider-wrapper .image-list .image-item {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.slider-wrapper .slide-button#prev-slide {
+    left: -25px;
+    display: none;
+}
+
+.slider-wrapper .slide-button#next-slide {
+    right: -25px;
+}
+
+
+
+.fundo {
+    background-image: url(/_img/fundo/0001\ -\ 2.png);
+    height: 950px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.vantagem {
+    background-image: url(/_img/fundo/0022.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+
+
+.vantagem img {
+    width: 7rem;
+    padding-left: 18%;
+    justify-items: center;
+}
+
+
+
+.caimento .botaodecair {
+    font-size: 14px;
+    padding: 14px 9px;
+
+  }
+
+
+ 
+
+  /* Mais pedidos */
+
+  .mpedidos {
+
+    background-image: url(/_img/fundo/0033.png);
+    height: 35vh;
+
+  }
+
+  .pedids {
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);    
+    justify-content: center;
+
+}
+
+
+section {
+    height: 180px;
+}
+
+
+.parceiros a img {
+    width: 90%;
+    padding-left: 10%;
+}
+
+
+/** FOOTER **/
+
+.dev {
+font-size: 15px;
+  }
+  
+  
+
+
+.rodape {
+           
+    gap: 2vh;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);   
+
+}
+
+
+.rodape p {
+    font-size: 12px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+
+.sociais a img {
+    margin-left: 15px;
+    width: 15%;
+}
+
+
+
+/* PÁGINA PRINCIPAL */
+
+
+
+
+
+/* PÁGINA SOBRE  */
+
+
+
+
+
+
+/* PÁGINA SOBRE */
